@@ -1,4 +1,4 @@
-echo -e "\e[1;91m   ▄█    █▄    ▄████████    ▄████████    ▄████████  Channel : @BOTATE \n  ███    ███   ███    ███   ███    ███   ███    ███ \n  ███    ███   ███    █▀    ███    █▀    ███    ███ \n  ███    ███  ▄███▄▄▄      ▄███▄▄▄      ▄███▄▄▄▄██▀  Bot : @iDaVinCiBot\n  ███    ███ ▀▀███▀▀▀     ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   \n  ███    ███   ███    █▄    ███    █▄  ▀███████████ Dev : @iDaVinCi\n  ███    ███   ███    ███   ███    ███   ███    ███ \n   ▀██████▀    ██████████   ██████████   ███    ███  By Source DaVinCi\e[0m"
+echo -e "\e[1;91m   ▄█    █▄    ▄████████    ▄████████    ▄████████  Channel : @vvvnn \n  ███    ███   ███    ███   ███    ███   ███    ███ \n  ███    ███   ███    █▀    ███    █▀    ███    ███ \n  ███    ███  ▄███▄▄▄      ▄███▄▄▄      ▄███▄▄▄▄██▀  Bot : @iDaVinCiBot\n  ███    ███ ▀▀███▀▀▀     ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   \n  ███    ███   ███    █▄    ███    █▄  ▀███████████ Dev : @iDaVinCi\n  ███    ███   ███    ███   ███    ███   ███    ███ \n   ▀██████▀    ██████████   ██████████   ███    ███  By Source DaVinCi\e[0m"
 echo -n "Downloading python3.8.." 
 sudo apt-get update -y &>/dev/null
 sudo add-apt-repository ppa:deadsnakes/ppa -y &>/dev/null
@@ -22,6 +22,6 @@ echo -e "\rDone download requests"
 echo -n "Downloading pm2.." 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo bash - &>/dev/null; sudo apt-get update &>/dev/null; sudo apt install nodejs -y &>/dev/null; sudo npm install -g pm2 &>/dev/null
 echo -e "\rDone download pm2"
-echo -n "Downloading Veer Source.." 
-git clone https://github.com/VeerCli/VeerV2.git &>/dev/null
-echo -e "\rDone Veer Source"
+echo -n "Downloading DaVinCi Source.." 
+git clone https://github.com/c10cr/DaVinCi.git &>/dev/null
+echo -e "\rDone DaVinCi Source"
