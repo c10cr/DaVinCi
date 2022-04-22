@@ -30,8 +30,8 @@ API_HASH = '9f4461079f30757ca0a4c23e14bd523f'
 
   sudo = input("input you're ID:")
   out = out+"\n"+"SUDO = {}".format(sudo)
-  botate = input("input you're username Channel: @")
-  out = out+"\n"+"BOTATE = '{}'".format(botate)
+  vvvnn = input("input you're username Channel: @")
+  out = out+"\n"+"vvvnn = '{}'".format(vvvnn)
 
   f = open("config.py","w+") 
   f.write(out)
